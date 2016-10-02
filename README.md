@@ -3,4 +3,4 @@
 - Node.js
 - Express
 - Socket.io
-Mentor: [Carlos Azaustre](#https://www.youtube.com/watch?v=ppiAvvkvAz0)
+Mentor: [Carlos Azaustre](https://www.youtube.com/watch?v=ppiAvvkvAz0)
