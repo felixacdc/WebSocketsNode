@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Cliente</title>
@@ -7,15 +8,23 @@
     <script src="/socket.io/socket.io.js"></script>
     <script src="/main.js"></script>
 </head>
+
 <body>
-   <div class="container">
-       <div class="row">
-           <div class="col-md-4"></div>
-           <div class="col-md-4">
-               <h1 class="text-center">Mi App</h1>
-               <div id="messages"></div>
-           </div>
-       </div>
-   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <h1 class="text-center">Mi App</h1>
+                <div id="messages"></div>
+                <hr>
+                <form onsubmit="return addMessage(this)">
+                    <input type="text" id="username" class="form-control" placeholder="Tu nombre" autocomplete=off><br>
+                    <input type="text" id="text" class="form-control" placeholder="Cuentanos algo..." autocomplete=off><br>
+                    <input type="submit" value="Enviar!" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
