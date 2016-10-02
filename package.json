@@ -4,7 +4,7 @@
   "description": "- Node.js - Express - Socket.io Mentor: [Carlos Azaustre](https://www.youtube.com/watch?v=ppiAvvkvAz0)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/main.js"
   },
   "repository": {
     "type": "git",
